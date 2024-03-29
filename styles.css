@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#singleplayer-btn {
+    background-color: hsl(187, 76%, 58%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    width: 200px;
+}
+
+#singleplayer-btn:hover {
+    background-color: hsl(187, 57%, 40%);
+}
+#multiplayer-btn {
+    background-color: hsl(109, 72%, 60%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    width: 200px;
+}
+
+#multiplayer-btn:hover {
+    background-color: hsl(109, 47%, 41%);
+}
